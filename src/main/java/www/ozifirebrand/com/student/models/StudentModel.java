@@ -36,5 +36,5 @@ public class StudentModel {
     private int phoneNumber;
 
     @OneToOne
-    private AccomodationModel accomodationModel;
+    private AccommodationModel accomodationModel;
 }

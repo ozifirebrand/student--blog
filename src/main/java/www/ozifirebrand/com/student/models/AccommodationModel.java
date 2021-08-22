@@ -11,11 +11,11 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class AccomodationModel {
+public class AccommodationModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int accomodationId;
+    private int accommodationId;
 
     @Column(nullable = false)
     private String address;
