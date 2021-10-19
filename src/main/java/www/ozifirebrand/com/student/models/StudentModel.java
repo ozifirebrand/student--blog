@@ -35,6 +35,6 @@ public class StudentModel {
     @Column(nullable = false, unique = true)
     private int phoneNumber;
 
-    @OneToOne
-    private AccommodationModel accomodationModel;
+//    @OneToOne
+//    private AccommodationModel accommodationModel;
 }
